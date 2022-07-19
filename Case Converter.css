@@ -1,0 +1,39 @@
+body {
+    background-color: #B370B0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bubblegum Sans", cursive;
+}
+
+.title {
+    color: #87255B;
+    font-size: 50px;
+    text-shadow: 0 0 2px white, -1px -1px 0 white, -3px -3px 1px white,
+    -2px -2px 2px magenta;
+    margin-top: 20px;
+}
+
+textarea {
+    height: 300px;
+    width: 800px;
+    border-radius: 35px;
+    margin: 30px 300px;
+    padding: 30px;
+    font-size: 25px;
+    color: rgb(224, 245, 241);
+    background-color: #BBA0CA;
+    font-family: "Bubblegum Sans", cursive;
+    border: 2px #87255B double;
+}
+
+button {
+    background-color: #87255B;
+    color: cornsilk;
+    border-radius: 35px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 20px;
+}
